@@ -12,7 +12,9 @@ int main(){
 	printf("%d\n",c^d); // ^ -> Bitwise XOR
 	
 	int value = 5;
-	printf("Right shift 1 bit %d\n",100 >> 1);
+	printf("Right shift 1 bit %d\n",value >> 2);
+	int value2 = 2;
+	printf("Left shift 1 bit %d\n", value2 << 1);
 }
 
 
