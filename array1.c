@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main(){
+	int n;
+	scanf("%d", &n);
+	int marks[n];
+	
+	int i;
+	for(i=0; i<n; i++){
+		scanf("%d", &marks[i]);
+	}
+	
+	int j;
+	for(j = 0; j<n; j++){
+		printf("%d ",marks[j]);
+	}
+	
+}
